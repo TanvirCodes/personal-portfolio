@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tanvir Shakib | Portfolio</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+        integrity="sha512-" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- AOS Animation -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+
+    <!-- AOS CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Sidebar Navigation -->
+    <nav class="sidebar">
+        <div class="logo">Tanvir</div>
+        <ul class="nav-links">
+            <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+            <li><a href="#skills"><i class="fas fa-code"></i> Skills</a></li>
+            <li><a href="#projects"><i class="fas fa-briefcase"></i> Projects</a></li>
+            <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero" data-aos="fade-up">
+            <h1>Hello, I'm <span>Tanvir Shakib</span></h1>
+            <p>Front-End Web Developer | Creative Thinker</p>
+            <a href="#projects" class="cta-button">View Projects</a>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section" data-aos="fade-up">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-text">
+                        <h2>About Me</h2>
+                        <p>Hello! I'm <strong>Md. Tanvir Anjum</strong>, a passionate web developer focused on building
+                            clean
+                            and user-friendly websites. I specialize in HTML, CSS, JavaScript, and responsive design. I
+                            love solving problems and creating smooth user experiences.</p>
+                        <a href="#projects" class="btn">View Projects</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Skills Section -->
+        <section id="skills" data-aos="fade-up">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>Responsive Design</li>
+                <li>Learning React.js</li>
+            </ul>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects section">
+            <div class="container">
+                <h2 data-aos="fade-up">My Projects</h2>
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card" data-aos="zoom-in-up">
+                        <img src="Images/project_1.png" alt="Project 1">
+                        <div class="project-info">
+                            <h3>Restaurant Website</h3>
+                            <p>A modern responsive website for a café using HTML, CSS, and JavaScript.</p>
+                            <a href="https://tanvircodes.github.io/greenbean-cafe/" class="btn">View Live</a>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card" data-aos="zoom-in-up" data-aos-delay="100">
+                        <img src="Images/project_2.png" alt="Project 2">
+                        <div class="project-info">
+                            <h3>Portfolio Website</h3>
+                            <p>A personal portfolio site to showcase skills and projects using AOS and modern layout
+                                techniques.</p>
+                            <a href="" class="btn">View Live</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section">
+            <div class="container">
+                <h2 data-aos="fade-up">Contact Me</h2>
+                <p class="contact-text" data-aos="fade-up" data-aos-delay="100">
+                    Interested in working together or have a question? Send me a message!
+                </p>
+                <form id="contact-form" class="contact-form" data-aos="fade-up" data-aos-delay="200">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
