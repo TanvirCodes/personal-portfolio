@@ -43,7 +43,7 @@ _(Update this with your actual deployment link)_
 
 ## 📸 Preview
 
-![Portfolio Preview]()
+![Portfolio Preview](https://tanvircodes.github.io/personal-portfolio/)
 
 ---
 
