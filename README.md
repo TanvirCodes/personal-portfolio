@@ -5,8 +5,7 @@ Welcome to the source code of my **Personal Portfolio Website**, built to showca
 ## 🚀 Live Demo
 
 You can view the live version of this portfolio here:  
-[🔗 Portfolio Website](https://tanvircodes.github.io/your-portfolio-link/)  
-_(Update this with your actual deployment link)_
+[🔗 Portfolio Website](https://tanvircodes.github.io/personal-portfolio/) 
 
 ---
 
@@ -38,12 +37,6 @@ _(Update this with your actual deployment link)_
 - 🧠 Skills section listing my tech stack
 - 📬 Contact form with client-side alert handling
 - ✨ Smooth scroll and entrance animations with AOS.js
-
----
-
-## 📸 Preview
-
-![Portfolio Preview](https://tanvircodes.github.io/personal-portfolio/)
 
 ---
 
