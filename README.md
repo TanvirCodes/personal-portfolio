@@ -1,4 +1,4 @@
-# 🌐 Tanvir Shakib | Personal Portfolio Website
+# 🌐 Personal Portfolio Website
 
 Welcome to the source code of my **Personal Portfolio Website**, built to showcase my skills, projects, and contact information in a clean and responsive format. This project is fully developed using **HTML**, **CSS**, and **JavaScript**, with smooth animations powered by the **AOS (Animate On Scroll)** library.
 
